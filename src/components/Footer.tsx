@@ -53,13 +53,13 @@ function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-gray-400" />
-                <a href="mailto:contact@findit.com" className="text-gray-400 hover:text-primary-400 transition-colors">
-                  contact@findit.com
+                <a href="mailto:tirth5612@gmail.com" className="text-gray-400 hover:text-primary-400 transition-colors">
+                  tirth5612@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
                 <GitHub className="h-5 w-5 text-gray-400" />
-                <a href="https://github.com/findit" className="text-gray-400 hover:text-primary-400 transition-colors" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tnttirth15/findit.github" className="text-gray-400 hover:text-primary-400 transition-colors" target="_blank" rel="noopener noreferrer">
                   github.com/findit
                 </a>
               </li>
