@@ -69,7 +69,7 @@ function Footer() {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-500">
-            © {currentYear} FindIt. All rights reserved.
+            © {currentYear} FindIt By Tirth Prajapati. All rights reserved.
           </p>
         </div>
       </div>
