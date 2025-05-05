@@ -5,6 +5,7 @@ import App from './App';
 import './index.css';
 import { ToasterProvider } from './components/ui/Toaster';
 import { AuthProvider } from './contexts/AuthContext';
+import ReactDOM from 'react-dom';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,4 +17,9 @@ createRoot(document.getElementById('root')!).render(
       </ToasterProvider>
     </BrowserRouter>
   </StrictMode>
+);
+
+ReactDOM.hydrate(
+  <App />,
+  document.getElementById('root')
 );
